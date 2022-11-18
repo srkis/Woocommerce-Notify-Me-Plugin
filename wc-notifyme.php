@@ -5,7 +5,7 @@
  * Plugin URI:        https://srdjan.icodes.rocks/
  * Description:       Woo notifyme plugin send notification to your subscribed customers about changes on your products.
  * Version:           1.0.0
- * Author:            Srdjan Stojanovic
+ * Author:            Srdjan Stojanovic - stojanovicsrdjan27@gmail.com
  * Author URI:        https://srdjan.icodes.rocks/
  * License:           Copyright (C) Srdjan Stojanovic - All Rights Reserved. Unauthorized copying of this file, via any medium is strictly prohibited. Proprietary and confidential. Written by Srdjan Stojanovic <stojanovicsrdjan27@gmail.com>, March, 13, 2020
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
