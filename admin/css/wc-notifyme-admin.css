@@ -1,0 +1,212 @@
+.container-checkbox input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+   }
+   .checkmark-box {
+    position: absolute;
+    top: -5px;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #adadad;
+   }
+   .container-checkbox {
+    display: block;
+    position: relative;
+    padding-left: 40px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    line-height: 1.1;
+   }
+   .container-checkbox input:checked ~ .checkmark-box:after {
+    color: #fff;
+   }
+   .container-checkbox input:checked ~ .checkmark-box:after {
+    display: block;
+   }
+   .container-checkbox .checkmark-box:after {
+    left: 10px;
+    top: 4px;
+    width: 7px;
+    height: 15px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+   }
+   .checkmark:after, .checkmark-box:after {
+    content: "";
+    position: absolute;
+    display: none;
+   }
+   .container-checkbox input:checked ~ .checkmark-box {
+    background-color: #f58220;
+    border: 0px solid transparent;
+   }
+   
+   
+   
+/* Add shadows to create the "card" effect */
+.panel-shadow {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    margin-bottom: 2rem;
+  }
+  
+
+  .panel-heading.course-heading {
+   
+    border: none;
+    padding-bottom: 0;
+  }
+  
+  .panel-footer.course-footer {
+    background: none;
+    
+  }
+  
+  .show-button-panel-heading{
+    background: #6B526B  !important;
+  }
+
+  .show-button-panel-header-h4 {
+   color: #FFF;
+   padding-bottom: 10px;
+  }
+
+
+  /*Woo Notifyme Button*/
+
+
+.woo-notifyme-button:focus {
+  outline: none !important;
+}
+.woo-notifyme-button {
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  padding: 10px;
+  border-radius: 2px;
+  border: 0;
+  transition: .5s ease-out;
+  color: #fff;
+  margin: 6px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.woo-notifyme-button:hover {
+  color: #fff;
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.18), 0 4px 5px 0 rgba(0, 0, 0, 0.15);
+}
+
+.woo-notifyme-button:active, .woo-notifyme-button:focus, .woo-notifyme-button.active {
+  outline: 0;
+  color: #fff;
+}
+
+
+/*Secondary  */
+.btn-secondary {
+    background-color: #aa66cc;
+  }
+  .btn-secondary:hover, .btn-secondary:focus {
+    cursor: pointer;
+    background-color: #b579d2 !important;
+    color: #fff;
+  }
+  .btn-secondary.active {
+    background-color: #773399 !important;
+  }
+  .btn-secondary.active:hover {
+    color: #fff;
+  }
+  .btn-secondary.active:focus {
+    color: #fff;
+  }
+
+
+
+
+.materail_input_block {
+    position: relative;
+    overflow: hidden;
+    border:none !important;
+  }
+  .materail_input_block:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    background-color: #AA66CC;
+    -webkit-transition: transform 0.2s ease-out 0s;
+    transition: transform 0.2s ease-out 0s;
+    -ms-transform: translateZ(0px) translate(-110%, 0);
+    -webkit-transform: translateZ(0px) translate(-110%, 0);
+    transform: translateZ(0px) translate(-110%, 0);
+  }
+  .materail_input_block:hover:after {
+    -ms-transform: translateZ(0px) translate(0%, 0);
+    -webkit-transform: translateZ(0px) translate(0%, 0);
+    transform: translateZ(0px) translate(0%, 0);
+  }
+  .materail_input_block .materail_input {
+    height: 35px;
+    width: 100%;
+    padding: 5px 1%;
+    border: none !important;
+    border-bottom: 2px solid #eee !important;
+    border-radius: 0;
+  
+    box-shadow: none;
+  }
+  .materail_input_block .materail_input:focus {
+      border-top: none !important;
+    outline: 0;
+    border-bottom-color: #AA66CC !important;
+  }
+
+
+  .submitSettingsButton{
+    background-color: #6B526B;
+    cursor: pointer;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    padding: 10px;
+    border-radius: 2px;
+    border: 0;
+    transition: .5s ease-out;
+    color: #fff;
+    margin: 6px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  }
+
+
+  .submitSettingsButton:hover {
+    color: #fff;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.18), 0 4px 5px 0 rgba(0, 0, 0, 0.15);
+  }
+  
+  .submitSettingsButton:active, .submitSettingsButton:focus, .submitSettingsButton.active {
+    outline: 0;
+    color: #fff;
+  }
+
+
+  .wc_nootifyme_preview_email_template{
+   /* transform: scale(0.9, 0.5)*/
+   /* height: 60%;*/
+  }
+
+  #changeButtonBgColor, #changeLinksColor {
+    margin-bottom: 20px;
+  }
